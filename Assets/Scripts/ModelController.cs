@@ -14,10 +14,4 @@ public class ModelController : MonoBehaviour
         var model = ModelLoader.Load(modelSource);
         worker = WorkerFactory.CreateWorker(WorkerFactory.Type.Auto, model);
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
